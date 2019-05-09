@@ -1,0 +1,177 @@
+body {
+    background-color: #eee;
+}
+
+.subheader {
+    color: #aaa;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.canvas {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.top-header {
+    display: flex;
+    background-color: red;
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+    align-items: baseline;
+}
+
+.top-header-left {
+    bottom: 0;
+    margin: 10px;
+    padding: 10px;
+}
+
+.top-header-center {
+    font-size: 64px;
+}
+
+.signin {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.signin > div {
+    margin: 10px;
+}
+
+.signin > div:last-of-type {
+    background-color: white;
+    color: red;
+    padding: 5px 10px;;
+}
+
+
+.nav-links {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid #eee;
+}
+
+.nav-links > ul > li {
+    list-style-type: none;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 1em;
+    border-right: 1px solid #ddd;
+    padding:0 25px;
+}
+
+.nav-links > ul > li:last-child {
+    border: none;
+    padding: 0;
+    padding-left: 25px;
+}
+
+.nav-links > ul > li:first-child {
+    padding-left: 0;
+}
+
+.searchBar {
+    background-color: #fff;
+    border: none;
+    width: 50px;
+    height: 30px;
+}
+
+.searchButton {
+    border: none;
+    color: black;
+    background: none;
+}
+
+.featured-stories img, .top-story img {
+    width: 100%;
+}
+
+.more-stories > li {
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+
+.more-stories > li img {
+    width: 135px;
+}
+
+.right-section p {
+    margin: 0;
+}
+
+.right-section li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.opinion-pf {
+    width: 60px;
+    height: 60px;
+}
+
+.latest-news > li img, .most-read > li img {
+    width: 135px;
+}
+
+.magazine img {
+    width: 100%;
+}
+
+.bb-light {
+    border-bottom: 1px solid #ddd;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sidelist li {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.sidelist img {
+    max-width: 35%;
+}
+
+.most-read li {
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+}
+
+.footer-social-links {
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+}
+
+
+@media screen and (max-width: 1320px) {
+    .canvas {
+        width: 100%;
+    }
+  }
+
+@media screen and (max-width: 991px){
+    .top-header {
+        display: none;
+    }
+    
+    .navbar-brand {
+        display: inherit;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-brand {
+        display: none;
+    }
+}
